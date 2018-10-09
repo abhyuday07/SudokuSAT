@@ -25,9 +25,9 @@ int main(){
     //Stores fixed elements in a vector
     //First row for val(i,j,k)
     //Second row for colour [1,2,3...9]->[0,1,2,3...,8]
-	vector<int> fixed[2];
+    vector<int> fixed[2];
     fp1=fopen("input.txt","r");
-	fp2=fopen("sat.txt","w");
+    fp2=fopen("sat.txt","w");
 
 	for( int i=0 ; i<9 ; i++ ){
 		for(int j=0 ; j<9 ; j++ ){
